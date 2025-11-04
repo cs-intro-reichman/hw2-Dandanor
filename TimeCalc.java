@@ -5,9 +5,12 @@ public class TimeCalc {
         int addmin = Integer.parseInt(args[1]);
         int newhour= (hours + addmin/60)%24;
         int newmin= minutes + addmin%60;
-        if (newmin>60){
+        if (newmin>=60){
             newmin-=60;
             newhour+=1;
+        }
+        if (newhour==24){
+            newhour=0;
         }
         if(newhour<10&&newmin<10){
         System.out.println("0"+newhour+ ":0"+ newmin); 
