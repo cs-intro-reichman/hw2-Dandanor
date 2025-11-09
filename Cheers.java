@@ -11,11 +11,11 @@ public class Cheers {
                         ch=word.charAt(i);
                         if(an.indexOf(ch)==-1)
                         {
-                                System.out.println("Give me a  "+ch+":  "+ch+"!");
+                                System.out.println("Give me a "+ch+": "+ch+"!");
                         }
                         else
                         {
-                                System.out.println("Give me an  "+ch+": "+ch+"!");
+                                System.out.println("Give me an "+ch+": "+ch+"!");
                         }
                 }
                 System.out.println("What does that spell?");
