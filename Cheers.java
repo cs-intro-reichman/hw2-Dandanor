@@ -1,7 +1,7 @@
 // Prints a crowd cheering output.
 public class Cheers {
         public static void main(String[] args) {
-                String word = args[0];
+                String word = args[0].toUpperCase();
                 char ch ;
                 String an= "AEFHILMNORSX";
                 int num = Integer.parseInt(args[1]);
@@ -11,11 +11,11 @@ public class Cheers {
                         ch=word.charAt(i);
                         if(an.indexOf(ch)==-1)
                         {
-                                System.out.println("Give me a "+ch+":  "+ch+"!");
+                                System.out.println("Give me a  "+ch+":  "+ch+"!");
                         }
                         else
                         {
-                                System.out.println("Give me an "+ch+": "+ch+"!");
+                                System.out.println("Give me an  "+ch+": "+ch+"!");
                         }
                 }
                 System.out.println("What does that spell?");
