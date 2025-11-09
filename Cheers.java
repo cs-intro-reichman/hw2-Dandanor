@@ -11,7 +11,7 @@ public class Cheers {
                         ch=word.charAt(i);
                         if(an.indexOf(ch)==-1)
                         {
-                                System.out.println("Give me a "+ch+": "+ch+"!");
+                                System.out.println("Give me a  "+ch+": "+ch+"!");
                         }
                         else
                         {
