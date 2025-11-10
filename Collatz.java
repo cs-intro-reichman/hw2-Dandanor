@@ -1,6 +1,6 @@
 // Demonstrates the Collatz conjecture.
 
-//I'm assuming in the future we could check for a runtime error and thus determine if any of the numbers doesn't reach 1,
+//I'm assuming in the future we could check for a runtime error and thus determine if any of the numbers don't reach 1,
 //right now I'm assuming we are supposed to assume the theorem works in practice.
 public class Collatz {
 	public static void main(String args[]) {
@@ -27,7 +27,7 @@ public class Collatz {
 			System.out.println();
 		}
 		System.out.println();
-		System.out.println("Every one of the first " +n+ " hailstone sequences reached 1.");
+		System.out.print("Every one of the first " +n+ " hailstone sequences reached 1.");
 		}
 		else if (mode.equals("c"))
 		{
