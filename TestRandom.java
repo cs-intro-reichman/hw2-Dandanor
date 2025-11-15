@@ -4,7 +4,7 @@ public  class  TestRandom {
 		int N=Integer.parseInt(args[0]);
 		int count1=0;
 		int count2=0;
-		int M=N;
+		int M=N; // We dont need to define M too, working with N is good enough :)
 		while (N!=0){
 			double x = Math.random();
 			if (x<0.5){
@@ -17,7 +17,7 @@ public  class  TestRandom {
 		}
 		System.out.println(">0.5: " +count1+ " times");
 		System.out.println("<=0.5: " +count2+ " times");
-		if (count1!=0 && count2!=0){
+		if (count1!=0 && count2!=0){ // great catching for edge case!
 			int max = Math.max(count1,count2);
 			int min = M-max;
 			double ratio = (double) min/max;
@@ -25,3 +25,4 @@ public  class  TestRandom {
 		}
 	}
 }
+
