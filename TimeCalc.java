@@ -26,3 +26,6 @@ public class TimeCalc {
         }
     }
 }
+
+// great job catching all edge cases, notice camel case - newmin -> newMin
+
