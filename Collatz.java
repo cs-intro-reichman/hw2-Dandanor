@@ -1,3 +1,9 @@
+/*
+Feedback: 
+Great use of comments! 
+Nicely written.
+*/
+
 // Demonstrates the Collatz conjecture.
 
 //I'm assuming in the future we could check for a runtime error and thus determine if any of the numbers don't reach 1,
@@ -34,4 +40,5 @@ public class Collatz {
 		}
 	}
 }
+
 
